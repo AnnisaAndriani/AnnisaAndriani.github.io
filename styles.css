@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.header{
+    position: ;
+    width: 100%;
+    height: 100vh;
+    background: #FCF5ED;
+}
+
+nav{
+    width: 84%;
+    margin: auto;
+    padding: 20 px 0;
+    align-items: center;
+    justify-content: space-between;
+    font-family: sans-serif;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 40px 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #1F1717;
+    font-weight: 500;
+    margin: 0;
+}
+
+nav ul li a:hover{
+    color: #CE5A67;
+}
+
+.nama{
+    margin-left: 9%;
+    margin-top: 12%;
+}
+
+.nama h2{
+    color: #1F1717;
+}
+.nama h1{
+    font-size: 50px;
+    font-family: Arial Narrow Bold;
+    color: #1F1717;
+}
+
+.nama p{
+    line-height: 22px;
+    color: #1F1717;
+}
+
+.nama a{
+    background: #CE5A67;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #FCF5ED;
+    display: inline-block;
+    margin: 15px 0;
+    border-radius: 5px;
+}
+
+.nama a:hover{
+    color: #1F1717;
+    background-color: #F4BF96;
+}
+
+.foto{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.foto img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.foto:hover .shape{
+    bottom: 20px;
+}
+
+.foto:hover .fotonisa{
+    left: 45%;
+}
+
+.tentang{
+        margin-left: 0;
+        margin-top: 70px;
+}
+
+.tentang h1{
+    font-size: 30px;
+    font-family: Arial Narrow Bold;
+    color: #1F1717;
+    margin: 0 35%;
+}
+
+.tentang hr{
+    width: 50%;
+    border: 1px solid black;
+    margin: 10px 20%;
+}
